@@ -28,6 +28,7 @@ $app->get('/api/', function (Request $request, Response $response, $args) {
     // Estructura para el response
     $json = array(
         "endpoints" => [
+            "documentacion" => "https://github.com/AndresBojaca/api-restfull-doublevpartners",
             "tickets" => "http://doublevpartnersapi.local/tickets/all"
         ],
     );

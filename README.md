@@ -19,13 +19,18 @@ Esta prueba fue desarollada en su totalidad por @AndresBojaca con un tiempo esti
 - [Slim Framework v4](http://dev.slimframework.com/)- Microframework de PHP utilizado para la elaboracion del API 
 - [MySQL](https://www.mysql.com/) - Gestor de la BD
 - [Docker](https://www.docker.com/) - Contenedor para correr la BD
+
 ## Instalación
+
+#### ES NECESARIO TENER INSTALADO COMPOSER PREVIAMENTE!
 
 Clonar el repositorio de Github desde una terminal o bash
 
 ```sh
 git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
 cd api-restfull-doublevpartners
+composer install
+composer install
 ```
 
 Levantar el Servidor de PHP
