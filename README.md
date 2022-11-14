@@ -27,23 +27,25 @@ Esta prueba fue desarollada en su totalidad por @AndresBojaca con un tiempo esti
 Clonar el repositorio de Github desde una terminal o bash
 
 ```sh
-git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
-cd api-restfull-doublevpartners
-composer install
-composer install
+$ git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
+$ cd api-restfull-doublevpartners
+$ composer install
+$ composer start
 ```
 
 Levantar el Servidor de PHP
 
 ```sh
-php -S localhost:8888
+$ php -S localhost:8888
 ```
 
 En el caso de usar un servidor local como XAMPP/WAMP, mover a la carpeta /www o cloner directamente en la ruta:
 ```sh
-cd C:/wamp64/www
-git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
-cd api-restfull-doublevpartners
+$ cd C:/wamp64/www
+$ git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
+$ cd api-restfull-doublevpartners
+$ composer install
+$ composer start
 ```
 
 
