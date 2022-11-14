@@ -45,6 +45,41 @@ cd C:/wamp64/www
 git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
 cd api-restfull-doublevpartners
 ```
+
+
+
+## Documentación
+### Endpoints: 
+
+#### Tickets:
+
+- Todos los Tickets: `GET /api/tickets/all`
+--Parametros Adicionales: 
+`limit`(Default: 5) & `page`(Default: 1) (Limite de registros por consulta y paginacion de los datos)
+    Ejemplo:
+    ```
+    /api/tickets/all?page=2&limit=10
+    ```
+
+- Crear Ticket: `POST /api/tickets/add`
+--`JSON Body` 
+    ```
+    {
+        "user": "UserName",
+        "status":"Abierto"
+    }
+    ```
+- Update User: `PUT /api/tickets/{id}`
+     --`JSON Body` 
+    ```
+    {
+        "user": "UserNameEdit",
+        "status":"Abierto"
+    }
+- Delete User: `DELETE /api/tickets/{id}`
+
+
+
 ## Docker
 
 Dillinger is very easy to install and deploy in a Docker container.

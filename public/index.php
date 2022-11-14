@@ -187,10 +187,10 @@ $app->put('/api/tickets/{id}', function (Request $request, Response $response, a
 
     $data = $request->getParsedBody();
     $id = $args['id'];
-
+    
     // Obtenermos Parametros del Body JSON
     $user = $data['user'];
-    $update_date = "2022-12-10";
+    $update_date = date('Y-m-d');
     $status = $data['status'];
 
     $sql = "
@@ -234,7 +234,7 @@ $app->delete('/api/tickets/delete/{id}', function (Request $request, Response $r
 
     $id = $args['id'];
     $sql = "
-    UPDATE tickets SET status = 0 WHERE id = $id";
+    UPDATE tickets SET status = 0, SET update_date = ".date('Y-m-d')." WHERE id = $id";
     try {
 
         $db = new DB();
