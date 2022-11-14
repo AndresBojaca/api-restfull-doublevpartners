@@ -30,7 +30,7 @@ Clonar el repositorio de Github desde una terminal o bash
 git clone https://github.com/AndresBojaca/api-restfull-doublevpartners.git
 cd api-restfull-doublevpartners
 composer install
-composer install
+composer start
 ```
 
 Levantar el Servidor de PHP
