@@ -36,6 +36,7 @@ $ composer start
 Levantar el Servidor de PHP
 
 ```sh
+cd public/
 $ php -S localhost:8888
 ```
 
