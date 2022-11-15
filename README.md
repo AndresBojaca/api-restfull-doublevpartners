@@ -24,6 +24,12 @@ Esta prueba fue desarollada en su totalidad por @AndresBojaca con un tiempo esti
 
 #### ES NECESARIO TENER INSTALADO COMPOSER PREVIAMENTE!
 
+Instalar la BD (Recomiendo desde el import del phpmyadmin)
+```
+ /database/doublevpartnerstickets.sql
+```
+
+
 Clonar el repositorio de Github desde una terminal o bash
 
 ```sh
